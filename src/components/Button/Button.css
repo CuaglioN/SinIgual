@@ -1,0 +1,14 @@
+.normalButton{
+  background-color: #fff;
+  height: 70px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family:fantasy;
+}
+.normalButton:hover{
+  background-color: lightgreen;
+  transition: 0.5s;
+}

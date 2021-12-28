@@ -1,0 +1,39 @@
+.navContainer{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-image: url(../../img/Photo.jpg);
+  }
+  
+  .navList-right, .navList-left {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;    
+  
+  }
+  
+  /* ----------------------------------------- */
+  #homeLogo{
+    width: 200px;
+    height: 200px;
+    background-image: url(../../img/Logo\ chico\ corto.png);
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 640px) {
+    .navContainer{
+      height: 100px;
+    }
+    #homeLogo{
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
